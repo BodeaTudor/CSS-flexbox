@@ -1,0 +1,7 @@
+To use the flexbox a container must be created. An element with a display type of flex so that every direct descendant
+withing it becomes a flex item.
+After that the behavior of those flex items can be controlled using several flexbox CSS properties either applied
+to the items or the container.
+The default behavior of flex items is to stack from left to right.
+One of the main purposes of the flexbox is to remove the need to use floats and other hacky techniques to achieve the
+same thing, usually with writing more code as well.
