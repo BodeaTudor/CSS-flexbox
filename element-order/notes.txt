@@ -1,0 +1,4 @@
+The property 'order' of the flexbox ca be used to change the order of the elements.
+The default value is 0.
+When all flex items have the value 0 the items are being displayed as they are define in the HTML file.
+Negative values can be used, and they will come before the value 0 i.e. it will be the first element in the order.
