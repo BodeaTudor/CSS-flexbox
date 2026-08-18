@@ -1,0 +1,6 @@
+The flex-wrap property is used to control whether flex items stay on one line or move onto multiple lines when there is
+not enough space in the container.
+By default, flex-wrap is set to nowrap, which means all the elements try to stay on the same line.
+If flex-wrap: wrap is used, the elements that do not fit will move onto the next line.
+You can also use flex-wrap: wrap-reverse, which wraps the elements onto multiple lines in the opposite direction.
+The flex-wrap property is applied to the parent flex container, not to the individual flex items.

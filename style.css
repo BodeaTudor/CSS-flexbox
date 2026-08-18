@@ -16,28 +16,30 @@ body {
 .flex-container {
     display: flex;
     background: #fff;
+    flex-wrap: wrap;
 }
 
 .box {
     height: 100px;
     /*min-width: 100px;*/
-    width: 320px;
+    min-width: 200px;
+    flex-grow: 1;
 }
 
 .one {
     background: red;
     /*flex-grow: 1;*/
-    flex-shrink: 0; /* won't shrink */
+    /*flex-shrink: 0; !* won't shrink *!*/
 }
 
 .two {
     background: blue;
     /*flex-grow: 3;*/
-    flex-shrink: 1;
+    /*flex-shrink: 1;*/
 }
 
 .three {
     background: green;
     /*flex-grow: 1;*/
-    flex-shrink: 5;
+    /*flex-shrink: 5;*/
 }
