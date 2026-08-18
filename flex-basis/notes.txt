@@ -1,0 +1,16 @@
+The flex-basis property is used to set the initial size of a flex item before flex-grow or flex-shrink are applied.
+It usually controls the starting width of an item when the flex direction is row, or the starting height when the flex
+direction is column.
+
+For example, flex-basis: 200px means that the item starts at 200px wide.
+However, it can still become bigger because of flex-grow or smaller because of flex-shrink.
+
+This is different from min-width: 200px.
+min-width means that the element is not allowed to become smaller than 200px.
+Because of this, if the container becomes too small and the items cannot wrap, min-width can cause horizontal overflow
+and a scrollbar.
+
+With flex-basis: 200px, the items can usually shrink below 200px because flex-shrink is 1 by default, so horizontal
+scrolling may not appear.
+
+The flex-basis property only works on flex items, meaning elements that are children of a parent with display: flex.
