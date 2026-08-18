@@ -22,26 +22,30 @@ body {
 .box {
     height: 100px;
     /*min-width: 200px;*/
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     /*flex-basis: 200px;*/
+    flex: 1 1 200px; /* shorthand */
+
+    /* another shorthand */
+    /*flex:1 this translates to -> flex: 1 1 0;*/
 }
 
 .one {
     background: red;
     /*flex-shrink: 0; !* won't shrink *!*/
-    flex-basis: 100px;
+    /*flex-basis: 100px;*/
 }
 
 .two {
     background: blue;
     /*flex-grow: 3;*/
     /*flex-shrink: 1;*/
-    flex-basis: 200px;
+    /*flex-basis: 200px;*/
 }
 
 .three {
     background: green;
     /*flex-grow: 1;*/
     /*flex-shrink: 5;*/
-    flex-basis: 300px;
+    /*flex-basis: 300px;*/
 }
