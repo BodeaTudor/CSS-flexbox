@@ -1,0 +1,5 @@
+The flex-shrink property is used to say how much an element is allowed to shrink when there is not enough space in the flex container.
+If all the elements have the value of 1, they will shrink proportionally when needed.
+If one of them has a value of 3, that element will shrink three times more than an element with a value of 1.
+If an element has flex-shrink: 0, it will not shrink.
+The flex-shrink property only works for elements that are children of a parent that has the display: flex property.
