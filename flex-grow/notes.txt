@@ -1,0 +1,4 @@
+The flex-grow property is used to say how much free space of the container an element can get.
+If all the elements have the value of 1 (or the same number for example 3 elements have 3, 3 ,3), the free space
+is equally distributed. If one of them has a value of 3 for example, that element will get three times as much space.
+The flex-grow property only works for elements that are children of a parent that has the display: flex property.
