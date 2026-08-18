@@ -1,0 +1,27 @@
+The flex property is a shorthand for flex-grow, flex-shrink, and flex-basis.
+The order is:
+flex: flex-grow flex-shrink flex-basis;
+
+For example:
+flex: 1 1 200px;
+
+means:
+flex-grow: 1;      -> the item can grow and take available free space
+flex-shrink: 1;    -> the item can shrink if there is not enough space
+flex-basis: 200px; -> the item starts with a base size of 200px
+
+Another example:
+flex: 0 0 200px;
+
+means:
+flex-grow: 0;      -> the item will not grow
+flex-shrink: 0;    -> the item will not shrink
+flex-basis: 200px; -> the item starts at 200px
+
+So this:
+flex: 1 1 200px;
+
+is the same as writing:
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 200px;
