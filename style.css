@@ -18,13 +18,15 @@ body {
     background: #fff;
     flex-wrap: wrap;
     flex-flow: column;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     height: 800px;
 
 }
 
 .box {
     height: 100px;
+    width: 100px;
     /*min-width: 200px;*/
     /*flex-grow: 1;*/
     /*flex-basis: 200px;*/
