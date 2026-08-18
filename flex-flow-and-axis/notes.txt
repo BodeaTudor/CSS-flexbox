@@ -1,0 +1,61 @@
+FLEX-FLOW
+
+flex-flow is a shorthand property for:
+- flex-direction
+- flex-wrap
+
+Syntax:
+flex-flow: <flex-direction> <flex-wrap>;
+
+Example:
+flex-flow: row wrap;
+
+is the same as:
+
+flex-direction: row;
+flex-wrap: wrap;
+
+
+flex-direction controls the direction of the main axis:
+- row
+- row-reverse
+- column
+- column-reverse
+
+flex-wrap controls whether flex items stay on one line or can move onto multiple lines:
+- nowrap = all items stay on one line (default)
+- wrap = items move onto a new line when there is not enough space
+- wrap-reverse = same as wrap, but the new lines are placed in the opposite cross-axis direction
+
+AXIS:
+
+The main axis follows flex-direction.
+
+flex-direction: row;
+- main axis = horizontal
+- cross axis = vertical
+
+flex-direction: column;
+- main axis = vertical
+- cross axis = horizontal
+
+justify-content controls alignment on the MAIN AXIS.
+
+align-items controls alignment on the CROSS AXIS.
+
+Examples:
+
+flex-flow: row nowrap;
+→ items flow horizontally and stay on one line
+
+flex-flow: row wrap;
+→ items flow horizontally and can move onto new rows
+
+flex-flow: column wrap;
+→ items flow vertically and can move onto new columns
+
+IMPORTANT:
+flex-flow does not create Flexbox by itself.
+The parent still needs:
+
+display: flex;

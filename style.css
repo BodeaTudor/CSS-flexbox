@@ -17,6 +17,10 @@ body {
     display: flex;
     background: #fff;
     flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: flex-end;
+    height: 800px;
+
 }
 
 .box {
@@ -24,7 +28,7 @@ body {
     /*min-width: 200px;*/
     /*flex-grow: 1;*/
     /*flex-basis: 200px;*/
-    flex: 1 1 200px; /* shorthand */
+    flex: 0 0 100px; /* shorthand */
 
     /* another shorthand */
     /*flex:1 this translates to -> flex: 1 1 0;*/
