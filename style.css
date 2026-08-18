@@ -21,25 +21,27 @@ body {
 
 .box {
     height: 100px;
-    /*min-width: 100px;*/
-    min-width: 200px;
+    /*min-width: 200px;*/
     flex-grow: 1;
+    /*flex-basis: 200px;*/
 }
 
 .one {
     background: red;
-    /*flex-grow: 1;*/
     /*flex-shrink: 0; !* won't shrink *!*/
+    flex-basis: 100px;
 }
 
 .two {
     background: blue;
     /*flex-grow: 3;*/
     /*flex-shrink: 1;*/
+    flex-basis: 200px;
 }
 
 .three {
     background: green;
     /*flex-grow: 1;*/
     /*flex-shrink: 5;*/
+    flex-basis: 300px;
 }
